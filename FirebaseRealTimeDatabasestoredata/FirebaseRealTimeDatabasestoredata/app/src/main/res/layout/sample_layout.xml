@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+    android:layout_marginTop="5dp"
+    android:id="@+id/nameTextViewId"
+    android:text="Name: Nushrat Jahan Tuli"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</TextView>
+
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_marginTop="5dp"
+        android:id="@+id/ageTextViewId"
+        android:text="Age: 28 years"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>
